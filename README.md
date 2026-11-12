@@ -124,10 +124,9 @@ Visible, near-infrared and fluorescence observations acquired from the same plan
 
 ### Digital signal distribution
 
-Channel-level digital intensity structure for exploratory multispectral interpretation.
+Channel-level digital intensity distributions across seven VIS, NIR and FLUO channels.
 
-![Digital distribution](assets/d01/multispectral/04_digital_distribution.png)
-
+![Digital intensity distributions of seven multispectral channels](assets/d01/multispectral/04_reference_channel_responses.png)
 ### Vegetative-stage examples
 
 Selected vegetative Arabidopsis observations shown directly from the processed multispectral fusion outputs.
