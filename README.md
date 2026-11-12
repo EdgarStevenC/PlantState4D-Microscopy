@@ -106,6 +106,30 @@ A representative root volume rendered as a rotating 3D reconstruction.
 
 ---
 
+## Multispectral sensor fusion
+
+**Arabidopsis · Plant phenotyping · VIS / NIR / FLUO**
+
+### Vegetative growth
+
+Temporal observations and image-based characterization of Arabidopsis plants.
+
+![Temporal plant observations](assets/d01/multispectral/01_temporal_overview.png)
+
+### Multispectral imaging
+
+Visible, near-infrared and fluorescence observations.
+
+![Multispectral imaging channels](assets/d01/multispectral/02_reference_modalities.png)
+
+### Segmentation and sensor fusion
+
+**FLUO → Red · VIS → Green · NIR → Blue**
+
+![Plant segmentation and multispectral fusion](assets/d01/multispectral/03_reference_segmentation_fusion.png)
+
+---
+
 ### Technical focus
 
 **Volumetric microscopy · Image processing · 3D rendering · fluorescence visualization · cellular morphology**
