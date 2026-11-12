@@ -1,58 +1,36 @@
 # PlantState4D
 
-### 3D Microscopy · Quantitative Imaging · Plant Morphology
+### From fluorescent signals to plant architecture
 
-*Exploring plant structure and development through scientific imaging.*
+*Multiscale observation of Arabidopsis structure and development through 3D microscopy, quantitative imaging and multispectral phenotyping.*
 
-**Work in progress** · MATLAB · ParaView · Python · 2026
-
----
-
-## Ovule development
-
-**Seven developmental stages | 3D fluorescence microscopy**
-
-Volumetric visualization of tissue architecture and cellular organization.
-
-![Seven stages of ovule development](assets/d02/ovules/panel/D02_ovule_development.png)
-
-### 3D rotations
-
-<table>
-  <tr>
-    <td align="center"><b>Stage 2-IV</b><br><img src="assets/d02/ovules/gif/01_Ovule_2-IV.gif" width="220"></td>
-    <td align="center"><b>Stage 2-V</b><br><img src="assets/d02/ovules/gif/02_Ovule_2-V.gif" width="220"></td>
-    <td align="center"><b>Stage 3-I</b><br><img src="assets/d02/ovules/gif/03_Ovule_3-I.gif" width="220"></td>
-    <td align="center"><b>Stage 3-II</b><br><img src="assets/d02/ovules/gif/04_Ovule_3-II.gif" width="220"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Stage 3-III</b><br><img src="assets/d02/ovules/gif/05_Ovule_3-III.gif" width="220"></td>
-    <td align="center"><b>Stage 3-IV</b><br><img src="assets/d02/ovules/gif/06_Ovule_3-IV.gif" width="220"></td>
-    <td align="center"><b>Stage 3-V</b><br><img src="assets/d02/ovules/gif/07_Ovule_3-V.gif" width="220"></td>
-    <td></td>
-  </tr>
-</table>
+**Work in progress** · MATLAB · Python · 2026
 
 ---
 
-## Root architecture
+**Observation → Reconstruction → Quantitative characterization → Biological interpretation**
 
-**3D fluorescence microscopy**
+Fluorescence microscopy and multispectral imaging provide complementary views of plant organization, from cellular structures and developing tissues to whole-plant morphology.
 
-A representative root volume rendered as a rotating 3D reconstruction.
+The visualizations emphasize what is experimentally observed, how image-derived representations are constructed, and which biological questions they can support.
 
-<p align="center">
-  <img src="assets/d02/root/gif/01_Root_Movie1_t00003.gif" width="520">
-</p>
+## 01 · Fluorescent signals and cellular organization
 
----
+### Floral meristem · Membrane and auxin-response reporters
 
+***Arabidopsis thaliana*** · Confocal fluorescence microscopy · 3D volumes
 
-## Floral meristem development
+Two fluorescent reporters provide distinct biological observables.
 
-**3D fluorescence microscopy | Arabidopsis**
+**PM · `pUBQ10::acyl:TDT`** — membrane-associated fluorescence for observing cellular and tissue organization.
+
+**DR5 · `DR5v2::n3eGFP`** — nuclear reporter of auxin-responsive transcriptional activity.
 
 ### Membrane-associated fluorescence
+
+**Three observations · T1–T3**
+
+3D renderings reveal the spatial organization of the imaged floral tissues.
 
 <table>
 <tr>
@@ -62,12 +40,12 @@ A representative root volume rendered as a rotating 3D reconstruction.
 </tr>
 </table>
 
-### Membrane and auxin-response reporters
+### Complementary fluorescence signals
 
-**T1 | PM + DR5**
+**T1 · PM + DR5**
 
 <p align="center">
-<img src="assets/d03/flower/gif/01_D03_T1_PM_DR5_overlay.gif" width="650" alt="3D exploratory overlay of PM and DR5 fluorescence">
+<img src="assets/d03/flower/gif/01_D03_T1_PM_DR5_overlay.gif" width="650" alt="Exploratory PM and DR5 fluorescence rendering">
 </p>
 
 <p align="center">
@@ -75,17 +53,66 @@ A representative root volume rendered as a rotating 3D reconstruction.
 <strong>DR5</strong> · Auxin-response reporter
 </p>
 
-*Exploratory overlay; spatial registration has not been validated. DR5 reports auxin response, not absolute auxin concentration.*
+*Exploratory dual-channel visualization. Spatial registration remains provisional; apparent signal proximity does not establish colocalization. DR5 does not directly measure auxin concentration.*
 
 ---
 
-## Leaf morphology · 3D confocal microscopy
+## 02 · Cellular architecture and developing organs
 
-**Three representative leaf volumes | PM-YFP fluorescence**
+### Ovule development
 
-![D04 leaf comparison](assets/d04/leaf/panel/D04_leaf_triptych.png)
+***Arabidopsis thaliana*** · Volumetric fluorescence microscopy · Seven annotated developmental stages
 
-### 3D rotations
+3D observations illustrate the architecture of developing ovules, including tissue boundaries and changing morphological organization.
+
+![Seven stages of ovule development](assets/d02/ovules/panel/D02_ovule_development.png)
+
+### Three-dimensional observations
+
+<table>
+<tr>
+<td align="center"><b>Stage 2-IV</b><br><img src="assets/d02/ovules/gif/01_Ovule_2-IV.gif" width="220"></td>
+<td align="center"><b>Stage 2-V</b><br><img src="assets/d02/ovules/gif/02_Ovule_2-V.gif" width="220"></td>
+<td align="center"><b>Stage 3-I</b><br><img src="assets/d02/ovules/gif/03_Ovule_3-I.gif" width="220"></td>
+<td align="center"><b>Stage 3-II</b><br><img src="assets/d02/ovules/gif/04_Ovule_3-II.gif" width="220"></td>
+</tr>
+<tr>
+<td align="center"><b>Stage 3-III</b><br><img src="assets/d02/ovules/gif/05_Ovule_3-III.gif" width="220"></td>
+<td align="center"><b>Stage 3-IV</b><br><img src="assets/d02/ovules/gif/06_Ovule_3-IV.gif" width="220"></td>
+<td align="center"><b>Stage 3-V</b><br><img src="assets/d02/ovules/gif/07_Ovule_3-V.gif" width="220"></td>
+<td></td>
+</tr>
+</table>
+
+*Developmental labels refer to the original morphological stage annotations. The animations show changes in viewpoint, not elapsed biological time.*
+
+### Root tissue architecture
+
+**3D fluorescence imaging · Spatial tissue organization**
+
+A selected root volume illustrates cellular and tissue-level architecture in three dimensions.
+
+<p align="center">
+<img src="assets/d02/root/gif/01_Root_Movie1_t00003.gif" width="520" alt="3D root fluorescence volume">
+</p>
+
+*The animation rotates a selected volume; it does not represent a time-lapse.*
+
+---
+
+## 03 · Leaf morphology and tissue geometry
+
+### Leaf epidermis · PM-YFP fluorescence
+
+***Arabidopsis thaliana*** · 3D confocal microscopy · Three representative volumes
+
+Membrane-associated fluorescence reveals aspects of tissue geometry and cellular organization.
+
+The selected volumes illustrate differences in apparent leaf size and morphology, providing a starting point for quantitative characterization of cellular geometry and organ shape.
+
+![Three representative leaf volumes](assets/d04/leaf/panel/D04_leaf_triptych.png)
+
+### Three-dimensional observations
 
 <p align="center"><strong>Small leaf</strong></p>
 <p align="center">
@@ -102,41 +129,74 @@ A representative root volume rendered as a rotating 3D reconstruction.
 <img src="assets/d04/leaf/gif/03_Leaf_Large.gif" width="750" alt="Large leaf 3D rotation">
 </p>
 
-*Individual volumetric visualizations; size labels describe the selected examples, not a validated developmental sequence.*
+*The size labels describe representative samples, not a validated longitudinal growth sequence.*
 
 ---
 
-## Multispectral sensor fusion
+## 04 · Whole-plant phenotyping and multispectral imaging
 
-**Arabidopsis · VIS / NIR / FLUO · Image-based plant phenotyping**
+### Arabidopsis · RGB(VIS), NIR and FLUO
 
-### Multispectral imaging modalities
+**IPK Gatersleben** · LemnaTec phenotyping platform · Top-view acquisition
 
-Visible, near-infrared and fluorescence observations acquired from the same plant imaging workflow.
+Three complementary imaging modalities provide distinct optical observations of plant structure and digital signal responses.
 
-![Multispectral imaging channels](assets/d01/multispectral/02_reference_modalities.png)
+**RGB(VIS)** · Visible imaging with red, green and blue channels.
 
-### Segmentation and sensor fusion
+**NIR** · Near-infrared imaging.
+
+**FLUO** · Fluorescence imaging.
+
+### Multispectral acquisition
+
+Representative observations demonstrate the complementary information available from the three imaging modalities.
+
+![Multispectral imaging modalities](assets/d01/multispectral/02_reference_modalities.png)
+
+### Image registration, segmentation and fusion
 
 **FLUO → Red · VIS → Green · NIR → Blue**
 
-![Segmentation and multispectral fusion](assets/d01/multispectral/03_reference_segmentation_fusion.png)
+Geometric registration and plant segmentation support a common visual representation of the processed multimodal observations.
+
+![Multispectral segmentation and fusion](assets/d01/multispectral/03_reference_segmentation_fusion.png)
 
 ### Digital signal distribution
 
-Channel-level digital intensity distributions across seven VIS, NIR and FLUO channels.
+**VIS-R/G/B · NIR · FLUO-R/G/B**
 
-![Digital intensity distributions of seven multispectral channels](assets/d01/multispectral/04_reference_channel_responses.png)
-### Vegetative-stage examples
+Digital intensity distributions illustrate the responses of the seven channels used for exploratory characterization.
 
-Selected vegetative Arabidopsis observations shown directly from the processed multispectral fusion outputs.
+![Digital channel distributions](assets/d01/multispectral/04_reference_channel_responses.png)
 
-![Vegetative gallery](assets/d01/multispectral/00_vegetative_gallery.png)
+### Early rosette observations · 12–28 DAS
+
+**Eight acquisitions · One plant · Three imaging modalities**
+
+Repeated top-view observations of plant `1135FA1125` illustrate changes in projected morphology over time.
+
+The labels indicate **days after sowing (DAS)**, recovered directly from the original experimental metadata.
+
+![Multispectral plant observations at 12 to 28 DAS](assets/d01/multispectral/00_vegetative_gallery.png)
+
+*The fused colors are a visualization convention, not physical spectral colors. Digital intensities are not calibrated radiance; projected morphology does not directly measure biomass. Phenological classification of the selected images remains subject to visual verification.*
 
 ---
 
-### Technical focus
+## From images to quantitative plant biology
 
-**Volumetric microscopy · Image processing · 3D rendering · fluorescence visualization · cellular morphology**
+**Geometry · Fluorescent signaling · Morphogenesis · Temporal observation**
 
-*Additional plant structures and multispectral imaging demonstrations are currently in development.*
+Across cellular, tissue, organ and whole-plant scales, these datasets illustrate complementary experimental observables.
+
+Their quantitative potential lies in connecting image-derived measurements with explicit biological questions: changes in cell and tissue geometry, spatial organization, organ morphology and plant development.
+
+Understanding relationships with mechanical stress, material properties or biochemical regulation requires additional measurements, modeling and experimental validation.
+
+The four demonstrations originate from independent datasets and do not constitute a single continuous multiscale experiment.
+
+**[Data provenance and acquisition notes](DATA_SOURCES.md)**
+
+---
+
+*Work in progress · MATLAB · Python · 2026*
