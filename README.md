@@ -19,18 +19,36 @@ Volumetric visualization of tissue architecture and cellular organization.
 ### 3D rotations
 
 <table>
-<tr><td align="center"><strong>2-IV</strong></td><td align="center"><strong>2-V</strong></td><td align="center"><strong>3-I</strong></td><td align="center"><strong>3-II</strong></td></tr>
-<tr><td align="center"><img src="assets/d02/ovules/gif/01_Ovule_2-IV.gif" width="180" alt="3D ovule stage 2-IV"></td><td align="center"><img src="assets/d02/ovules/gif/02_Ovule_2-V.gif" width="180" alt="3D ovule stage 2-V"></td><td align="center"><img src="assets/d02/ovules/gif/03_Ovule_3-I.gif" width="180" alt="3D ovule stage 3-I"></td><td align="center"><img src="assets/d02/ovules/gif/04_Ovule_3-II.gif" width="180" alt="3D ovule stage 3-II"></td></tr>
-<tr><td align="center"><strong>3-III</strong></td><td align="center"><strong>3-IV</strong></td><td align="center"><strong>3-V</strong></td></tr>
-<tr><td align="center"><img src="assets/d02/ovules/gif/05_Ovule_3-III.gif" width="180" alt="3D ovule stage 3-III"></td><td align="center"><img src="assets/d02/ovules/gif/06_Ovule_3-IV.gif" width="180" alt="3D ovule stage 3-IV"></td><td align="center"><img src="assets/d02/ovules/gif/07_Ovule_3-V.gif" width="180" alt="3D ovule stage 3-V"></td></tr>
+  <tr>
+    <td align="center"><b>Stage 2-IV</b><br><img src="assets/d02/ovules/gif/01_Ovule_2-IV.gif" width="220"></td>
+    <td align="center"><b>Stage 2-V</b><br><img src="assets/d02/ovules/gif/02_Ovule_2-V.gif" width="220"></td>
+    <td align="center"><b>Stage 3-I</b><br><img src="assets/d02/ovules/gif/03_Ovule_3-I.gif" width="220"></td>
+    <td align="center"><b>Stage 3-II</b><br><img src="assets/d02/ovules/gif/04_Ovule_3-II.gif" width="220"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Stage 3-III</b><br><img src="assets/d02/ovules/gif/05_Ovule_3-III.gif" width="220"></td>
+    <td align="center"><b>Stage 3-IV</b><br><img src="assets/d02/ovules/gif/06_Ovule_3-IV.gif" width="220"></td>
+    <td align="center"><b>Stage 3-V</b><br><img src="assets/d02/ovules/gif/07_Ovule_3-V.gif" width="220"></td>
+    <td></td>
+  </tr>
 </table>
+
+---
+
+## Root architecture
+
+**3D fluorescence microscopy**
+
+A representative root volume rendered as a rotating 3D reconstruction.
+
+<p align="center">
+  <img src="assets/d02/root/gif/01_Root_Movie1_t00003.gif" width="520">
+</p>
 
 ---
 
 ### Technical focus
 
-**Volumetric microscopy · Image processing · 3D rendering ·
-Fluorescence visualization · Cellular morphology**
+**Volumetric microscopy · Image processing · 3D rendering · fluorescence visualization · cellular morphology**
 
-*Additional plant structures and multispectral imaging
-demonstrations are currently in development.*
+*Additional plant structures and multispectral imaging demonstrations are currently in development.*
