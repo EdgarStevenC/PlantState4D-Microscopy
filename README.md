@@ -47,6 +47,38 @@ A representative root volume rendered as a rotating 3D reconstruction.
 
 ---
 
+
+## Floral meristem development
+
+**3D fluorescence microscopy | Arabidopsis**
+
+### Membrane-associated fluorescence
+
+<table>
+<tr>
+<td align="center"><b>T1</b><br><img src="assets/d03/flower/gif/T1_PM.gif" width="260"></td>
+<td align="center"><b>T2</b><br><img src="assets/d03/flower/gif/T2_PM.gif" width="260"></td>
+<td align="center"><b>T3</b><br><img src="assets/d03/flower/gif/T3_PM.gif" width="260"></td>
+</tr>
+</table>
+
+### Membrane and auxin-response reporters
+
+**T1 | PM + DR5**
+
+<p align="center">
+<img src="assets/d03/flower/gif/01_D03_T1_PM_DR5_overlay.gif" width="650" alt="3D exploratory overlay of PM and DR5 fluorescence">
+</p>
+
+<p align="center">
+<strong>PM</strong> · Membrane-associated fluorescence &nbsp; | &nbsp;
+<strong>DR5</strong> · Auxin-response reporter
+</p>
+
+*Exploratory overlay; spatial registration has not been validated. DR5 reports auxin response, not absolute auxin concentration.*
+
+---
+
 ### Technical focus
 
 **Volumetric microscopy · Image processing · 3D rendering · fluorescence visualization · cellular morphology**
