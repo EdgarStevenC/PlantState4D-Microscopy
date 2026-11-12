@@ -177,7 +177,7 @@ Repeated top-view observations of plant `1135FA1125` illustrate changes in proje
 
 The labels indicate **days after sowing (DAS)**, recovered directly from the original experimental metadata.
 
-![Multispectral plant observations at 12 to 28 DAS](assets/d01/multispectral/00_vegetative_gallery.png)
+![Multispectral plant observations at 12 to 28 DAS](assets/d01/multispectral/00_vegetative_gallery.png?v=ad78e09)
 
 *The fused colors are a visualization convention, not physical spectral colors. Digital intensities are not calibrated radiance; projected morphology does not directly measure biomass. Phenological classification of the selected images remains subject to visual verification.*
 
