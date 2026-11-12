@@ -87,18 +87,20 @@ A representative root volume rendered as a rotating 3D reconstruction.
 
 ### 3D rotations
 
-<table>
-<tr>
-<td align="center"><strong>Small</strong></td>
-<td align="center"><strong>Medium</strong></td>
-<td align="center"><strong>Large</strong></td>
-</tr>
-<tr>
-<td align="center"><img src="assets/d04/leaf/gif/01_Leaf_Small.gif" width="320" alt="Small leaf 3D rotation"></td>
-<td align="center"><img src="assets/d04/leaf/gif/02_Leaf_Medium.gif" width="320" alt="Medium leaf 3D rotation"></td>
-<td align="center"><img src="assets/d04/leaf/gif/03_Leaf_Large.gif" width="320" alt="Large leaf 3D rotation"></td>
-</tr>
-</table>
+<p align="center"><strong>Small leaf</strong></p>
+<p align="center">
+<img src="assets/d04/leaf/gif/01_Leaf_Small.gif" width="750" alt="Small leaf 3D rotation">
+</p>
+
+<p align="center"><strong>Medium leaf</strong></p>
+<p align="center">
+<img src="assets/d04/leaf/gif/02_Leaf_Medium.gif" width="750" alt="Medium leaf 3D rotation">
+</p>
+
+<p align="center"><strong>Large leaf</strong></p>
+<p align="center">
+<img src="assets/d04/leaf/gif/03_Leaf_Large.gif" width="750" alt="Large leaf 3D rotation">
+</p>
 
 *Individual volumetric visualizations; size labels describe the selected examples, not a validated developmental sequence.*
 
