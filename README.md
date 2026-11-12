@@ -79,6 +79,31 @@ A representative root volume rendered as a rotating 3D reconstruction.
 
 ---
 
+## Leaf morphology · 3D confocal microscopy
+
+**Three representative leaf volumes | PM-YFP fluorescence**
+
+![D04 leaf comparison](assets/d04/leaf/panel/D04_leaf_triptych.png)
+
+### 3D rotations
+
+<table>
+<tr>
+<td align="center"><strong>Small</strong></td>
+<td align="center"><strong>Medium</strong></td>
+<td align="center"><strong>Large</strong></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/d04/leaf/gif/01_Leaf_Small.gif" width="320" alt="Small leaf 3D rotation"></td>
+<td align="center"><img src="assets/d04/leaf/gif/02_Leaf_Medium.gif" width="320" alt="Medium leaf 3D rotation"></td>
+<td align="center"><img src="assets/d04/leaf/gif/03_Leaf_Large.gif" width="320" alt="Large leaf 3D rotation"></td>
+</tr>
+</table>
+
+*Individual volumetric visualizations; size labels describe the selected examples, not a validated developmental sequence.*
+
+---
+
 ### Technical focus
 
 **Volumetric microscopy · Image processing · 3D rendering · fluorescence visualization · cellular morphology**
