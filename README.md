@@ -108,17 +108,11 @@ A representative root volume rendered as a rotating 3D reconstruction.
 
 ## Multispectral sensor fusion
 
-**Arabidopsis · Plant phenotyping · VIS / NIR / FLUO**
+**Arabidopsis · VIS / NIR / FLUO · Image-based plant phenotyping**
 
-### Vegetative growth
+### Multispectral imaging modalities
 
-Temporal observations and image-based characterization of Arabidopsis plants.
-
-![Temporal plant observations](assets/d01/multispectral/01_temporal_overview.png)
-
-### Multispectral imaging
-
-Visible, near-infrared and fluorescence observations.
+Visible, near-infrared and fluorescence observations acquired from the same plant imaging workflow.
 
 ![Multispectral imaging channels](assets/d01/multispectral/02_reference_modalities.png)
 
@@ -126,7 +120,19 @@ Visible, near-infrared and fluorescence observations.
 
 **FLUO → Red · VIS → Green · NIR → Blue**
 
-![Plant segmentation and multispectral fusion](assets/d01/multispectral/03_reference_segmentation_fusion.png)
+![Segmentation and multispectral fusion](assets/d01/multispectral/03_reference_segmentation_fusion.png)
+
+### Digital signal distribution
+
+Channel-level digital intensity structure for exploratory multispectral interpretation.
+
+![Digital distribution](assets/d01/multispectral/04_digital_distribution.png)
+
+### Vegetative-stage examples
+
+Selected vegetative Arabidopsis observations shown directly from the processed multispectral fusion outputs.
+
+![Vegetative gallery](assets/d01/multispectral/00_vegetative_gallery.png)
 
 ---
 
